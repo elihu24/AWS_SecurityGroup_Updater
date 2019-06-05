@@ -1,7 +1,7 @@
 # AWS_SecurityGroup_Updater
 Script notes:
 - Update the All caps parameters
-- This script is designed to run on a security group that is hosting only one set of port ranges (i.e., every IP is allowed the same ports) for an umbrella Security Group that would span multiple ec2 servers. (Think a masterlist of allowed SSH IPs for a fleet of servers.) Minor additional modification would need to be made to handle a Security Group with various kinds of ports/protocols allowed.
+- This script is designed to run on a security group that is hosting only one set of port ranges (i.e., every IP is allowed the same port/portrange) for an umbrella Security Group that would span multiple ec2 servers. (Think a masterlist of allowed SSH IPs for a fleet of servers.) Minor additional modification would need to be made to handle a Security Group with various kinds of ports/protocols allowed.
 
 
 PERMISSIONS
